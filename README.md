@@ -61,12 +61,8 @@ The following steps were followed during the development of the project:
 
 ## Final Model Selection
 
-Logistic Regression, Decision Tree Classifier, Random Forest Classifier, and Support Vector Classifier (SVC) models were trained and evaluated for forest cover prediction.
-
-Among all the models, the Random Forest Classifier achieved the highest accuracy, precision, recall, and F1-score values while correctly classifying the majority of forest cover types across all seven classes.
-
+Logistic Regression, Decision Tree Classifier, Random Forest Classifier, and Support Vector Classifier (SVC) models were trained and evaluated for forest cover prediction. Among all the models, the Random Forest Classifier achieved the highest accuracy, precision, recall, and F1-score values while correctly classifying the majority of forest cover types across all seven classes.
 The model achieved an accuracy of **85.52%** and produced the fewest misclassifications compared to the other evaluated models.
-
 Since accurately identifying forest cover types is important for environmental monitoring, land management, and ecological analysis, the **Random Forest Classifier** was selected as the final model for Forest Cover Type Prediction.
 
 ## Conclusion
