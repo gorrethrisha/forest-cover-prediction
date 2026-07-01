@@ -81,7 +81,7 @@ For simplicity and usability, the Streamlit web application uses the most import
 ## Project Files
 
 - `Forest Cover Type Prediction.ipynb` - Complete notebook containing data preprocessing, model training, and evaluation.
-- `app.py` - Streamlit web application for forest cover type prediction.
+- `app.py` - Streamlit web application for forest cover prediction.
 - `forest_cover_model.pkl` - Saved trained Random Forest model.
 - `requirements.txt` - Required Python packages for running the application and reproducing the project environment.
 - `README.md` - Project documentation.
