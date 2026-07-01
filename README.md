@@ -26,13 +26,15 @@ The primary objective of this project is to develop a machine learning model tha
 
 ## Tech Stack
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
-* Jupyter Notebook
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Streamlit
+- Joblib
+- Jupyter Notebook
 
 ## Methodology
 
@@ -54,10 +56,10 @@ The following steps were followed during the development of the project:
 
 | Model | Accuracy | Precision | Recall | F1 Score |
 |-------|----------|-----------|--------|----------|
-| Logistic Regression | 0.6918 | 0.6888 | 0.6918 | 0.6891 |
-| Decision Tree Classifier | 0.7903 | 0.7896 | 0.7903 | 0.7898 |
-| Random Forest Classifier | 0.8552 | 0.8522 | 0.8552 | 0.8524 |
-| Support Vector Classifier (SVC) | 0.7272 | 0.7245 | 0.7272 | 0.7241 |
+| Logistic Regression | 69.18% | 68.88% | 69.18% | 68.91% |
+| Decision Tree Classifier | 79.03% | 78.96% | 79.03% | 78.98% |
+| Random Forest Classifier | 85.52% | 85.22% | 85.52% | 85.24% |
+| Support Vector Classifier (SVC) | 72.72% | 72.45% | 72.72% | 72.41% |
 
 ## Final Model Selection
 
@@ -65,6 +67,25 @@ Logistic Regression, Decision Tree Classifier, Random Forest Classifier, and Sup
 The model achieved an accuracy of **85.52%** and produced the fewest misclassifications compared to the other evaluated models.
 Since accurately identifying forest cover types is important for environmental monitoring, land management, and ecological analysis, the **Random Forest Classifier** was selected as the final model for Forest Cover Type Prediction.
 
+
+## Streamlit Web Application
+
+A Streamlit-based web application was developed to provide an interactive interface for Forest Cover Prediction.
+
+The application allows users to enter geographical and environmental information and instantly predicts the forest cover type using the trained machine learning model.
+
+The original dataset contains 55 input features including multiple one-hot encoded soil type and wilderness area variables.
+
+For simplicity and usability, the Streamlit web application uses the most important geographical and environmental features to demonstrate forest cover prediction using the trained machine learning model.
+
+## Project Files
+
+- `Forest Cover Type Prediction.ipynb` - Complete notebook containing data preprocessing, model training, and evaluation.
+- `app.py` - Streamlit web application for forest cover type prediction.
+- `forest_cover_model.pkl` - Saved trained Random Forest model.
+- `requirements.txt` - Required Python packages for running the application and reproducing the project environment.
+- `README.md` - Project documentation.
+  
 ## Conclusion
 
 A Forest Cover Prediction system was successfully developed and multiple machine learning algorithms were trained and evaluated for classification performance.
