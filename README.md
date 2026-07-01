@@ -1,8 +1,8 @@
-# Forest Cover Type Prediction
+# Forest Cover Prediction
 
 ## Project Overview
 
-This project develops a Machine Learning based Forest Cover Type Prediction system to classify the type of forest cover using geographical and environmental features collected from forest regions.
+This project develops a Machine Learning based Forest Cover Prediction system to classify the type of forest cover using geographical and environmental features collected from forest regions.
 
 ## Objective
 
